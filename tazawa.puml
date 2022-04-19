@@ -1,6 +1,6 @@
 @startuml まとめ
 !theme sketchy-outline
-class 謎{
+class 未所属{
     天候
     季節
 }
