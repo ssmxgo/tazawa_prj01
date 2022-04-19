@@ -1,0 +1,18 @@
+@startuml
+!theme sketchy
+
+class 駅 {}
+
+class 路線図 {}
+
+class 電車 {}
+
+class 人 {}
+
+package A{
+class 背景{}
+}
+
+
+
+@enduml
