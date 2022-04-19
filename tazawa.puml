@@ -1,18 +1,37 @@
-@startuml
-!theme sketchy
-
-class 駅 {}
+@startuml まとめ
+!theme sketchy-outline
+class 謎{
+    天候
+    季節
+}
+class 駅 {
+    駅高さ
+    }
 
 class 路線図 {}
 
-class 電車 {}
+class 電車 {
+    電車高さ
+}
 
 class 人 {}
 
-package A{
-class 背景{}
+package オブジェクト{
+class 背景{
+    天候
+
 }
 
+'各風景 駅舎 建築物
+class オブジェクト{
+    オブジェクトID
+    表示切替()
+}
+class 駅舎{}
+class 踏切{}
 
+}
+
+'scratchでコードによるオブジェクト生成/削除できるのか？
 
 @enduml
