@@ -42,7 +42,11 @@ class 背景{
 '各風景 駅舎 建築物
 class オブジェクト{
     オブジェクトID
-    表示切替()
+    頻度
+    表示高さ
+    SCRL速度
+    表現切替()
+    表示切替GEOFlex/Free()
 }
 class 駅舎{}
 class 踏切{}
