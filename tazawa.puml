@@ -1,6 +1,5 @@
 @startuml まとめ
 !theme sketchy-outline
-
 class 未所属{
     天候
     季節
@@ -9,47 +8,46 @@ class 未所属{
 }
 class 駅 {
     駅高さ
-}
+    }
 
 class 路線図 {
-    位置表示()
+位置表示()
 }
 
 class 時刻表{
-    位置管理()
-    時刻管理()
+位置管理()
+時刻管理()
 }
 
 class 電車 {
-    電車ID
+電車ID
     電車高さ
     車種
 }
 
 class 人 {
-    位置
-    電車ID
+位置
+電車ID
 }
 
 package オブジェクト{
-    class 背景{
-        天候
-        季節
-        時間帯
-    }
-
-
-
-    '各風景 駅舎 建築物
-    class オブジェクト{
-        オブジェクトID
-        表示切替()
-    }
-    class 駅舎{}
-    class 踏切{}
-    class 車庫{}
-
+class 背景{
+    天候
+季節
+時間帯
 }
 
+
+
+'各風景 駅舎 建築物
+class オブジェクト{
+    オブジェクトID
+    表示切替()
+}
+class 駅舎{}
+class 踏切{}
+class 車庫{}
+
+}
 
 @enduml
