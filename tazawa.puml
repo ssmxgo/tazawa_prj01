@@ -1,5 +1,8 @@
 @startuml まとめ
 !theme sketchy-outline
+
+利用者プロパティ{}
+
 class 未所属{
     天候
     季節
@@ -18,7 +21,11 @@ Class 速度{
 
 class 駅 {
     駅高さ
+    flg_terminal
+    駅到着判定(=発車駅&terminal：読上無し else terminal：終点アナウンス)
+    終点(たざわんが、乗り換えを聞き、入力促す。登場駅は自由、乗換は限定)
 }
+
 
 class 路線図 {
     位置表示()
