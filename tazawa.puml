@@ -28,7 +28,7 @@ class 路線図 {
 class 路線 {
     発車駅
     次駅
-    距離
+駅間距離(stStation_id,endStation_id)
     発展度
 }
 class カレンダー{
@@ -49,6 +49,7 @@ class 電車 {
     電車高さ
     車種
     車両数
+駅間位置
 }
 
 class 人 {
